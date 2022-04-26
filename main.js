@@ -47,11 +47,11 @@ const tomBMI = tomMass/tomHeight **2;
 const jerryBMI = jerryMass/jerryHeight**2;
 console.log(tomBMI);
 console.log(jerryBMI);
-function whoisFatter () {
+function booleanFunction () {
   if (jerryBMI > tomBMI) {
     return false;
   } else {
    return true;
   }
 }
-console.log("Is Tom's BMI higher than Jerry's? " + whoisFatter());
+console.log("Is Tom's BMI higher than Jerry's? " + booleanFunction());
