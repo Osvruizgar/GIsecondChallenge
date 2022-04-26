@@ -50,6 +50,7 @@ console.log(jerryBMI);
 function booleanFunction () {
   if (jerryBMI > tomBMI) {
     return false;
+    //I dislike writing dead code. It is unnecessary
   } else {
    return true;
   }
