@@ -30,9 +30,12 @@ const userInput = Number(prompt ("type a Number from 1 to 12 (digits) and youll 
 const calender = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 function amongtBetrayed () {
   const arraylength = calender.length;
-  for (let loopNumber = 0; loopNumber < arraylength + 1; loopNumber++) {
+  console.log(arraylength)
+  for (let loopNumber = 1; loopNumber <= arraylength; loopNumber++) {
       if (loopNumber === userInput) {
           console.log(calender[userInput - 1]);
+        }else {
+          alert("you have to select  1 2 3 4 5 6 7 8 9 10 11 12 ");
       }
   }
 }
